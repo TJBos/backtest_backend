@@ -42,6 +42,8 @@ def delete(id):
     except:
         return 'error'
 
+#same would be for updating item, in this case would make a template for it
+#similar as with Express/ESJ templates etc. just need route for a front end
 @app.route('/update/<int:id>', methods=['GET', 'POST'])
 def update(id):
     return ''
